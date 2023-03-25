@@ -43,7 +43,7 @@ void witdepo()
 void main()
 {
     for(int i=0; i<10; i++) {
-        printf("Enter account number, name and balance of cutomer %d:",i+1);
+        printf("Enter account number, name and balance of customer %d:",i+1);
         scanf("%d%s%d",&ct[i].ac,ct[i].name,&ct[i].bal);
         while(getchar()!='\n');
     }
